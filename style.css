@@ -1,0 +1,54 @@
+*{
+    font-family: "Poppins" , sans-serif;
+    scrollbar-width: none;
+}
+
+.hero{
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+}
+
+@media (max-width: 991px){
+    .navbar{
+        border-radius: 0 !important;
+    }
+}
+
+@media (max-width: 992px){
+    .subscribeheading{
+        padding-top: 18%;
+    }
+
+}
+
+@media (max-width: 359px){
+    .hero-inp ::placeholder{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:992px){
+    .broker-img img{
+        margin-left: 1rem !important;
+        width: 320px;
+    }
+
+    .line1{
+        font-size: 2rem !important;
+    }
+}
+
+/* @media (max-width:666px){
+    .broker-img img{
+        width: 290px !important;
+        height: 3px !important;
+    }
+
+} */
+
+
+
+
+
+
