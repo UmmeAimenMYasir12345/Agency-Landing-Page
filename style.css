@@ -34,18 +34,69 @@
         width: 320px;
     }
 
+    .onesecimg img{
+        left: 10% !important;
+    }
+
+    .subscribe img{
+        /* left: 10% !important; */
+        top: -190px !important;
+    }
+
     .line1{
         font-size: 2rem !important;
     }
 }
 
-/* @media (max-width:666px){
-    .broker-img img{
-        width: 290px !important;
-        height: 3px !important;
+@media screen and (max-width:458px){
+    .onesecimg img{
+        min-width: 100px !important;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .threeval{
+        margin-left: 4% !important;
+    }
+}
+
+
+@media screen and (max-width:380px) {
+    .line1{
+        font-size: 25px !important;
     }
 
-} */
+    .line2{
+        font-size: 9px !important;
+    }
+
+    .broker-img img{
+        max-width: 276px !important;
+        margin-left: 0rem !important;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .line1{
+        font-size: 15px !important;
+    }
+
+    .threeval{
+        margin-left: 1% !important;
+    }
+
+    .subscribe img{
+        min-width: 250px !important;
+        height: 200px !important;
+    }
+}
+
+
+
+
+
+
+
 
 
 
